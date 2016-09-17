@@ -1,0 +1,4 @@
+SpeedTest	KEYWORD1
+begin	KEYWORD2
+update	KEYWORD2
+result	KEYWORD2
