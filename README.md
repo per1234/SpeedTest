@@ -38,3 +38,7 @@ Call this after `SpeedTest.update()` returns true.
 - Returns: The average duration of each loop in microseconds. Note that the SpeedTest library causes some overhead so the result will not be a perfect indicator of the true loop duration without the library but it does give an approximation and is useful for comparisons where the library overhead will have a uniform effect.
   - Type: float
 
+
+#### Contributing
+Pull requests or issue reports are welcome! Please see the [contribution rules](https://github.com/per1234/SpeedTest/blob/master/CONTRIBUTING.md) for instructions.
+
