@@ -41,4 +41,3 @@ Call this after `SpeedTest.update()` returns true.
 
 #### Contributing
 Pull requests or issue reports are welcome! Please see the [contribution rules](https://github.com/per1234/SpeedTest/blob/master/CONTRIBUTING.md) for instructions.
-
