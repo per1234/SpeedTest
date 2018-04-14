@@ -46,7 +46,7 @@ before_install:
   - set_application_folder "$APPLICATION_FOLDER"
   - set_sketchbook_folder "$SKETCHBOOK_FOLDER"
 
-  - install_ide "1.6.0" "hourly"
+  - install_ide '("1.6.5-r5" "1.6.9" "1.6.13" "1.8.5" "newest")'
 
   # Install the library from the repository
   - install_library
@@ -56,8 +56,6 @@ script:
   # Compile all example sketches included with the library
   # build_sketch arguments: sketch name, fqbn, allow failure, IDE version/list/range
   - build_sketch "${SKETCHBOOK_FOLDER}/libraries/SpeedTest/examples" "arduino:avr:uno" "false" "oldest" "newest"
-  # Test with the hourly build of the Arduino IDE to get a warning of any incompatibilities created by recent IDE changes but allow failure because failure may be caused by bugs or changes to the IDE that will be reverted.
-  - build_sketch "${SKETCHBOOK_FOLDER}/libraries/SpeedTest/examples" "arduino:avr:uno" "true" "hourly"
 
 
 after_script:
