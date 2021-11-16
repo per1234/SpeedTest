@@ -12,7 +12,7 @@ public:
 
 private:
   unsigned long loops;
-  unsigned long loopCount;
+  unsigned long loopsRemaining;
   unsigned long startTimestamp;
   unsigned long endTimestamp;
 };
