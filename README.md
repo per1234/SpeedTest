@@ -35,7 +35,7 @@ Start the test.
 Call this function on every loop.
 
 - Returns: Whether the test is complete. `false`: Test not complete, `true`: Test complete.
-  - Type: boolean
+  - Type: bool
 
 ##### `SpeedTest.result()`
 

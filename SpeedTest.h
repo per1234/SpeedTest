@@ -7,7 +7,7 @@ class SpeedTestClass {
 public:
   SpeedTestClass();
   void begin(const unsigned long loops);
-  boolean update();
+  bool update();
   float result();
 
 private:

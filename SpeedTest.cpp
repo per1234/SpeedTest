@@ -11,7 +11,7 @@ void SpeedTestClass::begin(const unsigned long loopsInput) {
 }
 
 
-boolean SpeedTestClass::update() {
+bool SpeedTestClass::update() {
   if (--loopsRemaining == 0) {
     endTimestamp = millis();
     return true;
