@@ -14,8 +14,9 @@ Useful for testing code optimizations.
 The Arduino IDE can only be used for the initial installation. To update to a new version of the library, you must replace the previous installation manually:
 
 1. Download the most recent version of SpeedTest here: https://github.com/per1234/SpeedTest/archive/main.zip
-1. Delete the previous library installation at **{sketchbook}/libraries/SpeedTest-main**
-1. Copy the folder, **SpeedTest-main**, from the downloaded .zip file to your **{sketchbook folder}/libraries** folder. You can find the location of your sketchbook folder at **File > Preferences > Sketchbook location**.
+1. Delete the previous library installation at **{sketchbook folder}/libraries/SpeedTest-main**
+   You can find the location of your sketchbook folder in the Arduino IDE at **File > Preferences > Sketchbook location**.
+1. Copy the folder, **SpeedTest-main**, from the downloaded .zip file to your **{sketchbook folder}/libraries** folder.
 1. Restart the Arduino IDE if it's running.
 
 <a id="usage"></a>
