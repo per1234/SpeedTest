@@ -2,7 +2,7 @@
 #include "SpeedTest.h"
 
 
-SpeedTestClass::SpeedTestClass() {};
+SpeedTestClass::SpeedTestClass(){};
 
 void SpeedTestClass::begin(const unsigned long loopsInput) {
   loops = loopsInput;
