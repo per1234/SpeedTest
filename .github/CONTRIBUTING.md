@@ -5,7 +5,7 @@ Thanks for your interest in contributing to this free open source project! Pleas
 ## Issues
 
 - Do you need help using this project? Support requests should be made to the appropriate section of the [Arduino forum](http://forum.arduino.cc) rather than an issue report. Feel free to [send me a PM](https://forum.arduino.cc/u/pert) with a link to your forum thread. **Support will not be provided via PM**, I prefer to help you publicly so that others with the same question may benefit from the information. **Issue reports are to be used to report bugs or make feature requests only.**
-- Before submitting a bug report test using the [latest version of the project](https://github.com/per1234/SpeedTest/archive/master.zip) to be sure it hasn't already been fixed. **Don't report issues that only occur with old versions of the project.**
+- Before submitting a bug report test using the [latest version of the project](https://github.com/per1234/SpeedTest/archive/main.zip) to be sure it hasn't already been fixed. **Don't report issues that only occur with old versions of the project.**
 - Search [existing pull requests and issues](https://github.com/per1234/SpeedTest/issues?q=) to be sure it hasn't already been reported. **Do not submit duplicate issue reports.** If you have additional information to provide about the issue then please comment on that issue.
 - Open an issue at https://github.com/per1234/SpeedTest/issues/new.
 - State which version of the Arduino IDE you are using. I do try to maintain backwards compatibility with old versions of the Arduino IDE.
@@ -20,8 +20,8 @@ Thanks for your interest in contributing to this free open source project! Pleas
 - Search [existing pull requests and issues](https://github.com/per1234/SpeedTest/pulls?q=) to make sure the change hasn't already been proposed.
 - Comment your code. The focus of Arduino is learning so it's best to be a bit more thorough about documenting code.
 - Code must be formatted according to the latest version of the Arduino IDE's **Tools > Auto Format**. If you don't have the Arduino IDE installed you can use [Artistic Style](http://astyle.sourceforge.net) configured according to https://github.com/arduino/Arduino/blob/master/build/shared/lib/formatter.conf. All other formatting should be consistent with the current code.
-- If appropriate, add or update the CI workflows in the [`.github/workflows` folder](https://github.com/per1234/SpeedTest/tree/master/.github/workflows).
-- Update the [documentation](https://github.com/per1234/SpeedTest/blob/master/README.md) if your changes require it. This should be done in the same commit as the change.
+- If appropriate, add or update the CI workflows in the [`.github/workflows` folder](https://github.com/per1234/SpeedTest/tree/main/.github/workflows).
+- Update the [documentation](https://github.com/per1234/SpeedTest/blob/main/README.md) if your changes require it. This should be done in the same commit as the change.
 - **All commits must be atomic**. This means that the commit completely accomplishes a single task. Each commit should result in fully functional code. Multiple tasks should not be combined in a single commit. For more information please read http://www.freshconsulting.com/atomic-commits.
 - Commit messages: Use the [imperative mood](http://chris.beams.io/posts/git-commit/#imperative) in the commit title. Completely explain the purpose of the commit. Please read http://chris.beams.io/posts/git-commit for more tips on writing good commit messages.
 - Each pull request should address a single bug fix or enhancement, this may consist of multiple commits. If you have multiple, unrelated fixes or enhancements to contribute, then do each in a separate pull request.
