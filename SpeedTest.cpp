@@ -6,13 +6,13 @@ SpeedTestClass::SpeedTestClass(){};
 
 void SpeedTestClass::begin(const unsigned long loopsInput) {
   loops = loopsInput;
-  loopCount = 0;
+  loopsRemaining = loops;
   startTimestamp = millis();
 }
 
 
 boolean SpeedTestClass::update() {
-  if (++loopCount >= loops) {
+  if (--loopsRemaining == 0) {
     endTimestamp = millis();
     return true;
   }
@@ -21,7 +21,7 @@ boolean SpeedTestClass::update() {
 
 
 float SpeedTestClass::result() {
-  return (float)(endTimestamp - startTimestamp) * 1000 / loopCount;
+  return (float)(endTimestamp - startTimestamp) * 1000 / loops;
 }
 
 
