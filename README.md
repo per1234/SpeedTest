@@ -7,10 +7,7 @@ Useful for testing code optimizations.
 #### Installation
 
 - Download the most recent version of SpeedTest here: https://github.com/per1234/SpeedTest/archive/main.zip
-- Using Arduino IDE 1.0.x:
-  - **Sketch > Import Library... > Add Library... >** select the downloaded file **> Open**
-- Using Arduino IDE 1.5+:
-  - **Sketch > Include Library > Add ZIP Library... >** select the downloaded file **> Open**
+- **Sketch > Include Library > Add ZIP Library... >** select the downloaded file **> Open**
 - Updating to a new version - Note that installation via the Arduino IDE only can be done for the initial installation. To update to a new version you must install the library manually:
   - Delete the previous library installation at **{sketchbook}/libraries/SpeedTest-main**
   - Copy the folder, **SpeedTest-main**, from the downloaded .zip file to your **{sketchbook folder}/libraries** folder. You can find the location of your sketchbook folder at **File > Preferences > Sketchbook location**.
