@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Check formatting
-        uses: editorconfig-checker/action-editorconfig-checker@v1
+        uses: editorconfig-checker/action-editorconfig-checker@v2
 
   utf-8-bom:
     runs-on: ubuntu-latest
